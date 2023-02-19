@@ -2,7 +2,7 @@
   "type": "module",
   "name": "ztorage",
   "description": "A flexible and type-safe wrapper for key-value storage",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "scripts": {
