@@ -1,0 +1,54 @@
+{
+  "type": "module",
+  "name": "ztorage",
+  "description": "A flexible and type-safe wrapper for key-value storage",
+  "version": "0.0.0",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "scripts": {
+    "dev": "rollup -c -w",
+    "build": "rimraf dist && rollup -c",
+    "format": "rome format . --write",
+    "format:check": "rome format .",
+    "lint": "rome check .",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage"
+  },
+  "devDependencies": {
+    "@vitest/coverage-c8": "^0.28.2",
+    "esbuild": "^0.17.4",
+    "rimraf": "^4.1.2",
+    "rollup": "^3.11.0",
+    "rollup-plugin-dts": "^5.1.1",
+    "rollup-plugin-esbuild": "^5.0.0",
+    "rome": "^11.0.0",
+    "typescript": "^4.9.4",
+    "vitest": "^0.28.2"
+  },
+  "peerDependencies": {
+    "zod": "*"
+  },
+  "files": [
+    "dist"
+  ],
+  "license": "MIT",
+  "author": "Kevin Hermawan",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevinhermawan/ztorage.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kevinhermawan/ztorage/issues"
+  },
+  "homepage": "https://github.com/kevinhermawan/ztorage#readme",
+  "keywords": [
+    "wrapper",
+    "type-safe",
+    "type validation",
+    "key-value storage",
+    "web storage",
+    "localStorage",
+    "sessionStorage"
+  ]
+}
