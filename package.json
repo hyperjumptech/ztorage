@@ -1,6 +1,6 @@
 {
   "type": "module",
-  "name": "ztorage",
+  "name": "@hyperjumptech/ztorage",
   "description": "A flexible and type-safe wrapper for key-value storage",
   "version": "1.0.0",
   "main": "dist/index.js",
@@ -36,12 +36,12 @@
   "author": "Kevin Hermawan",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kevinhermawan/ztorage.git"
+    "url": "git+https://github.com/hyperjumptech/ztorage.git"
   },
   "bugs": {
-    "url": "https://github.com/kevinhermawan/ztorage/issues"
+    "url": "https://github.com/hyperjumptech/ztorage/issues"
   },
-  "homepage": "https://github.com/kevinhermawan/ztorage#readme",
+  "homepage": "https://github.com/hyperjumptech/ztorage#readme",
   "keywords": [
     "wrapper",
     "type-safe",

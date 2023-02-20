@@ -1,6 +1,6 @@
 # Ztorage
 
-![Minified size](https://img.shields.io/bundlephobia/min/ztorage) ![Test coverage](https://img.shields.io/codecov/c/github/kevinhermawan/ztorage) ![Monthly download](https://img.shields.io/npm/dm/ztorage)
+![Minified size](https://img.shields.io/bundlephobia/min/@hyperjumptech/ztorage) ![Test coverage](https://img.shields.io/codecov/c/github/hyperjumptech/ztorage) ![Monthly download](https://img.shields.io/npm/dm/@hyperjumptech/ztorage)
 
 Ztorage is a flexible and type-safe wrapper for key-value storage that is designed to work with various storage mediums, including [Web Storage API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API) and other storage backends. It takes advantage of [Zod](https://github.com/colinhacks/zod), a powerful TypeScript schema validation library, to provide automatic parsing and validation of data.
 
@@ -13,31 +13,31 @@ Ztorage is a flexible and type-safe wrapper for key-value storage that is design
 
 ## Installation
 
-To use Ztorage, you must have Zod installed. You can install `ztorage` and `zod`, by running the following command:
+To use Ztorage, you must have Zod installed. You can install `@hyperjumptech/ztorage` and `zod`, by running the following command:
 
 **NPM**
 
 ```
-npm install ztorage zod
+npm install @hyperjumptech/ztorage zod
 ```
 
 **Yarn**
 
 ```
-yarn add ztorage zod
+yarn add @hyperjumptech/ztorage zod
 ```
 
 **pnpm**
 
 ```
-pnpm add ztorage zod
+pnpm add @hyperjumptech/ztorage zod
 ```
 
 ## Usage
 
 ```ts
 import { z } from "zod";
-import Ztorage from "ztorage";
+import Ztorage from "@hyperjumptech/ztorage";
 
 // Define a schema for the data you want to store
 const schema = z.object({
