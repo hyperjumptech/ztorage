@@ -4,6 +4,10 @@
 
 Ztorage is a flexible and type-safe wrapper for key-value storage that is designed to work with various storage mediums, including [Web Storage API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API) and other storage backends. It takes advantage of [Zod](https://github.com/colinhacks/zod), a powerful TypeScript schema validation library, to provide automatic parsing and validation of data.
 
+## Articles
+
+- [Open-sourcing Ztorage: A Type-Safe Wrapper for Key-Value Storage in JavaScript](https://medium.com/hyperjump-tech/open-sourcing-ztorage-a-type-safe-wrapper-for-key-value-storage-in-javascript-2cfe9879ea1a?source=rss----fabfd42372dc---4)
+
 ## Features
 
 - Works with various storage mediums
