@@ -41,7 +41,7 @@ describe("Ztorage", () => {
     expect(booleanValue).toStrictEqual(false);
 
     onGetItemMock.mockResolvedValueOnce(
-      JSON.stringify({ key1: "string", key2: 123456789 })
+      JSON.stringify({ key1: "string", key2: 123456789 }),
     );
     const objectValue = await storage.getItem("object");
     expect(onGetItemMock).toHaveBeenCalledWith("object");
@@ -71,25 +71,25 @@ describe("Ztorage", () => {
     await storage.setItem("string", "string");
     expect(onSetItemMock).toHaveBeenCalledWith(
       "string",
-      JSON.stringify("string")
+      JSON.stringify("string"),
     );
 
     await storage.setItem("number", 123456789);
     expect(onSetItemMock).toHaveBeenCalledWith(
       "number",
-      JSON.stringify(123456789)
+      JSON.stringify(123456789),
     );
 
     await storage.setItem("object", { key1: "string", key2: 123456789 });
     expect(onSetItemMock).toHaveBeenCalledWith(
       "object",
-      JSON.stringify({ key1: "string", key2: 123456789 })
+      JSON.stringify({ key1: "string", key2: 123456789 }),
     );
 
     await storage.setItem("array", ["string", "string"]);
     expect(onSetItemMock).toHaveBeenCalledWith(
       "array",
-      JSON.stringify(["string", "string"])
+      JSON.stringify(["string", "string"]),
     );
   });
 
